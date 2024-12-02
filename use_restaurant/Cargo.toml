@@ -1,0 +1,8 @@
+[package]
+name = "use_restaurant"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+restaurant = { path = "../restaurant" }
+restaurant = { git = "https://github.com/username/restaurant" }
