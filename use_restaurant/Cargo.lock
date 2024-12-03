@@ -5,7 +5,7 @@ version = 4
 [[package]]
 name = "restaurant"
 version = "0.1.0"
-source = "git+https://github.com/EllitonDias/reuso-de-software.git?branch=main#f044ac9bcf6a23e712ec24c08f8f898410efd6e4"
+source = "git+https://github.com/EllitonDias/reuso-de-software.git?branch=main#883867df7557b6b64cadd94566bb6db66a0ce8e5"
 
 [[package]]
 name = "use_restaurant"

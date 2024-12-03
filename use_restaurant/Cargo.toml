@@ -4,10 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-# Dependência local do projeto `restaurant`
-# Descomente a linha abaixo para usar a versão local
-# restaurant = { path = "../restaurant" }
-
 # Dependência do GitHub do projeto `restaurant`
-# Descomente a linha abaixo e comente a linha do path local para usar a versão do repositório
 restaurant = { git = "https://github.com/EllitonDias/reuso-de-software.git", branch = "main" }
+
+# Dependência local do projeto `restaurant`
+# Descomente a linha abaixo para usar a versão local e comente a dependência do GitHub.
+# Depois do mensionado acima entre na pasta use_restaurant e no terminal digite cargo update e depois cargo run.
+# restaurant = { path = "../restaurant" }
