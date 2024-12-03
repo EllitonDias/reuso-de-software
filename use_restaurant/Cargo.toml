@@ -4,5 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-restaurant = { path = "../restaurant" }
-restaurant = { git = "https://github.com/username/restaurant" }
+# Dependência local do projeto `restaurant`
+# Descomente a linha abaixo para usar a versão local
+# restaurant = { path = "../restaurant" }
+
+# Dependência do GitHub do projeto `restaurant`
+# Descomente a linha abaixo e comente a linha do path local para usar a versão do repositório
+restaurant = { git = "https://github.com/EllitonDias/reuso-de-software/tree/main/restaurant", branch = "main" }
